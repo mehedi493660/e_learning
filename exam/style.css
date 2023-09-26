@@ -1,0 +1,112 @@
+
+.top-header{
+    justify-content: space-between;
+    display: flex;
+    height: 75px;
+    align-items: center;
+    background-color: rgb(220, 248, 248);
+}
+.logo{
+    margin-left: 24px;
+    color: #06bbcc;
+}
+.logo i{
+    margin-right: 15px;
+    font-size: larger;
+}
+.right{
+    display: flex;
+}
+.menu ul {
+    margin-top: 28px;
+    display: flex;
+    margin-right: 30px;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin-right: 35px;
+}
+.btn1{
+   
+   padding-right: 24px;
+   background-color: #06bbcc;
+   padding: 28px;
+}
+.btn1 i{
+    margin-left: 10px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+/* hero section */
+.hero{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(/img/carousel-2.jpg);
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    font-size: larger;
+}
+.hero h3{
+    color: #06bbcc;
+    font-size: 40px;
+}
+.hero h1{
+    color: white;
+    font-size: 33px;
+}
+.hero p{
+    color: white;
+}
+.hero-btn{
+    display: flex;
+ 
+}
+.hero1btn{
+    margin-right: 60px;
+    padding:15px 55px;
+
+    background-color: #06bbcc;
+    
+}
+.hero2btn{
+    padding:15px 55px;
+    background-color: aliceblue;
+
+}
+.hero1btn a{
+    text-decoration: none;
+    color: white;
+
+}
+.hero2btn a{
+    text-decoration: none;
+    color: black;
+}
+.feature1{
+    height: 200px;
+    width: 200px;
+    background-color: #def9fb;
+    justify-content: center;
+    align-items: center;
+    padding: 35PX;
+}
+.feature .allfeature{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25PX;
+}
+.feature1 i{
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    padding: 20PX;
+
+
+}
+
